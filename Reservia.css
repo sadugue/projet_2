@@ -11,7 +11,7 @@ section, header {
 
 footer {
     background-color: #e9ebec;
-    width: 84em;
+    width: 75em;
     margin: 0em;
     padding: 1em;
 }
@@ -141,7 +141,7 @@ button {
     background-color: #0065fc;
     border-style: none;
     height: 3em;
-    width: auto;
+    width: 5em;
     border-radius: 0px 16px 16px 0px;
     
 }
