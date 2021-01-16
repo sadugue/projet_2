@@ -279,12 +279,12 @@ p i {
 
 .bpetite img, .bhaute img {
     background-color: white;
-    width: 8.4em;
+    width: 5em;
     border-radius: 16px 16px 0px 0px;
 }
 
 .bhaute img{
-    height: 20em;
+    height: 22em;
 }
 
 .bpetite {
