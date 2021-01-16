@@ -1,19 +1,24 @@
 ﻿body {
     padding: 0em;
     margin: 0em;
-    width: 78em;
+    width: 76em;
+}
+
+h5{
+    font-size: 1.20em;
+    margin-top: 0.5em;
 }
 /*écrire un commentaire*/
 section, header {
     padding: 0em 1em 1em 1em;
-    width: 77em;
+    width: 76em;
 }
 
 footer {
     background-color: #e9ebec;
-    width: 77em;
+    width: 77.5em;
     margin: 0em;
-    padding: 1em;
+    padding: 0em;
 }
 
 .Hebergement, .Populaire {
@@ -62,6 +67,10 @@ footer {
 .etoile-non-prise {
     margin-left: 0.3em;
     color: #e9ebec;
+}
+
+.Populaire .etoile{
+    margin-top: 2em;
 }
 
 .filtre-case {
@@ -130,7 +139,7 @@ input {
     margin: 2em 2em 2em 0em;
     border-radius: 16px;
     height: auto;
-    width: 20em;
+    width: 22em;
     
 }
 
@@ -141,7 +150,7 @@ button {
     background-color: #0065fc;
     border-style: none;
     height: 3em;
-    width: 5em;
+    width: 8em;
     border-radius: 0px 16px 16px 0px;
     
 }
@@ -159,8 +168,8 @@ button {
 }
 
 label {
-    padding: 0em;
-    margin: 0em;
+    padding: 0.25em;
+    margin: 0.25em;
 }
 
 .Uneligne i {
@@ -184,7 +193,6 @@ p i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0em 1em 1em 1em;
 }
 
 .top-right {
@@ -200,7 +208,7 @@ p i {
 
 .Act {
     height: 35em;
-    padding: 1em;
+    padding: 0em;
     margin: 1em;
 }
 
@@ -212,7 +220,7 @@ p i {
 .b1 {
     background-color: white;
     padding: 0.2em 0.2em 1em 0.2em;
-    height: 20em;
+    height: 18em;
     width: 14.6em;
     margin: 0.7em;
 }
@@ -222,7 +230,7 @@ p i {
     }
 
     .b1 img {
-        height: 12em;
+        height: 10em;
         width: 14.6em;
         border-radius: 16px 16px 0px 0px;
     }
@@ -231,15 +239,15 @@ p i {
     background-color: white;
     margin: 1em;
     padding: 0em;
-    height: 13.5em;
-    width: 21.6em;
+    height: 11.5em;
+    width: 23.6em;
 }
 
     .b2 img {
         margin-top: 0.2em;
         margin-left: 0.2em;
-        height: 13em;
-        width: 8.4em;
+        height: 11em;
+        width: 10.4em;
         border-radius: 16px 0px 0px 16px;
     }
 
@@ -249,11 +257,17 @@ p i {
 
 .bpetite, .bhaute {
     background-color: white;
-    margin: 10px;
-    padding: 0px 0px 5px 0px;
-    height: 23em;
-    width: 17.4em;
+    margin: 1em;
+    padding: 0px 0px 10px 0px;
     border-radius: 16px;
+}
+
+.bhaute{
+    height: 23em;
+}
+
+.bpetite h5, .haute h5{
+    padding-bottom: 0.1em
 }
 
 .bpetite h5, .bhaute h5 {
@@ -277,18 +291,23 @@ p i {
     color: grey;
 }
 
+.bpetite, .bhaute{
+    width: 16.5em;
+    margin-left: 0.5em;
+}
+
 .bpetite img, .bhaute img {
     background-color: white;
-    width: 10.4em;
+    width: 16.5em;
     border-radius: 16px 16px 0px 0px;
 }
 
 .bhaute img{
-    height: 22em;
+    height: 20em;
 }
 
 .bpetite {
-    height: 8.5em;
+    height: 10.25em;
 }
 
 .bpetite img {
@@ -305,8 +324,8 @@ p i {
 }
 
 .logo img {
-    height: 4em;
-    width: 11em;
+    height: 2.5em;
+    width: 6em;
     padding-top: 1em;
 }
 
