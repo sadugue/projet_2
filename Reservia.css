@@ -223,7 +223,7 @@ p i {
 
     .b1 img {
         height: 12em;
-        width: 14.6em;
+        width: 10.6em;
         border-radius: 16px 16px 0px 0px;
     }
 
@@ -239,7 +239,7 @@ p i {
         margin-top: 0.2em;
         margin-left: 0.2em;
         height: 13em;
-        width: 12.4em;
+        width: 10.4em;
         border-radius: 16px 0px 0px 16px;
     }
 
@@ -279,7 +279,7 @@ p i {
 
 .bpetite img, .bhaute img {
     background-color: white;
-    width: 12.4em;
+    width: 10.4em;
     border-radius: 16px 16px 0px 0px;
 }
 
