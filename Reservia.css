@@ -239,7 +239,7 @@ p i {
         margin-top: 0.2em;
         margin-left: 0.2em;
         height: 13em;
-        width: 12.4em;
+        width: 18.4em;
         border-radius: 16px 0px 0px 16px;
     }
 
@@ -279,17 +279,20 @@ p i {
 
 .bpetite img, .bhaute img {
     background-color: white;
-    height: 20em;
     width: 17.4em;
     border-radius: 16px 16px 0px 0px;
 }
 
+.bhaute img{
+    height: 20em;
+}
+
 .bpetite {
-    height: 10em;
+    height: 8.5em;
 }
 
 .bpetite img {
-    height: 8em;
+    height: 8.5em;
 }
 
 .textedessous {
