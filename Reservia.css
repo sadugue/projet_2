@@ -1,7 +1,7 @@
 ﻿body {
     padding: 0em;
     margin: 0em;
-    width: 50em;
+    width: 75em;
 }
 /*écrire un commentaire*/
 section, header {
@@ -11,7 +11,9 @@ section, header {
 
 footer {
     background-color: #e9ebec;
-    width: 75em;
+    width: 84em;
+    margin: 0em;
+    padding: 1em;
 }
 
 .Hebergement, .Populaire {
@@ -32,7 +34,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0.7em;
 }
 
 .ligne-filtre {
@@ -107,12 +109,12 @@ a:hover{
     justify-content: flex-start;
 }
 
-.input {
+input {
     padding: 0em;
     margin: 0em;
     border-style: none;
-    height: 3em;
-    width: 17em;
+    height: 100%;
+    width: 14em;
     font-weight: bold;
     color: black;
 }
@@ -127,19 +129,21 @@ a:hover{
     justify-content: flex-start;
     margin: 2em 2em 2em 0em;
     border-radius: 16px;
-    height: 3em;
-    width: 26em;
+    height: auto;
+    width: 20em;
+    
 }
 
-.boutton {
+button {
     padding: 0em;
     margin: 0em;
     color: white;
     background-color: #0065fc;
-    height: 3em;
-    width: 11em;
-    border-radius: 0px 16px 16px 0px;
     border-style: none;
+    height: 3em;
+    width: auto;
+    border-radius: 0px 16px 16px 0px;
+    
 }
 
 .localisation {
@@ -151,7 +155,7 @@ a:hover{
     font-size: 125%;
     padding-left: 0.5em;
     padding-top: 0.5em;
-    width: 2em;
+    width: 5em;
 }
 
 label {
@@ -184,14 +188,14 @@ p i {
 }
 
 .top-right {
-    width: 20em;
+    width: 18em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0em 1em 1em 1em;
 }
 
 .Hebergement {
-    width: 68em;
+    width: 70em;
 }
 
 .Act {
@@ -209,7 +213,8 @@ p i {
     background-color: white;
     padding: 0.2em 0.2em 1em 0.2em;
     height: 20em;
-    width: 13.6em;
+    width: 12.6em;
+    margin: 0.7em;
 }
 
     .b1 h5, .b1 p {
@@ -218,7 +223,7 @@ p i {
 
     .b1 img {
         height: 12em;
-        width: 13.6em;
+        width: 12.6em;
         border-radius: 16px 16px 0px 0px;
     }
 
@@ -247,7 +252,7 @@ p i {
     margin: 10px;
     padding: 0px 0px 5px 0px;
     height: 25em;
-    width: 14.4em;
+    width: 15.4em;
     border-radius: 16px;
 }
 
@@ -275,16 +280,16 @@ p i {
 .bpetite img, .bhaute img {
     background-color: white;
     height: 22em;
-    width: 14.4em;
+    width: 15.4em;
     border-radius: 16px 16px 0px 0px;
 }
 
 .bpetite {
-    height: 10em;
+    height: 8em;
 }
 
 .bpetite img {
-    height: 8em;
+    height: 6em;
 }
 
 .textedessous {
@@ -298,7 +303,7 @@ p i {
 
 .logo img {
     height: 4em;
-    width: 10em;
+    width: 11em;
     padding-top: 1em;
 }
 
@@ -471,5 +476,5 @@ p i {
         border-color: #e9ebec;
     }
 
-    */
-}
+    
+}*/
