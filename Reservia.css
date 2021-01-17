@@ -360,11 +360,6 @@ p i {
         display: flex;
         flex-direction: column;
         margin-top: 2em;
-        justify-content: space-between;
-    }
-
-    footer {
-        margin-top: 1em;
     }
 
     .Uneligne, .top-right {
