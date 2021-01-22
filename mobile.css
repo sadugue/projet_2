@@ -1,0 +1,57 @@
+body, .Activite, .Populaire, .Activite, section, footer, header, top, .heb, .Hebergement, .Uneligne, .ligne {
+    width: 100%;
+    border-radius: 0px;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0em;
+}
+
+section, footer, .Act, .heb, .ligne, .heb, .col, .ligne, .Activite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.Uneligne, .top-right {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bhaute, .bpetite {
+    width: 95%;
+    height: 300px;
+}
+
+    .bhaute img, .bpetite img, .b1 img {
+        width: 100%;
+    }
+
+    .bhaute img, .bpetite img {
+        height: 85%;
+    }
+
+.b1 img {
+    height: 55%;
+}
+
+.b1 {
+    height: 300px;
+    width: 95%;
+}
+
+.b2 {
+    height: 300px;
+    width: 95%;
+}
+
+    .b2 img {
+        height: 100%;
+    }
+
+p {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.75em;
+}
