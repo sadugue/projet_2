@@ -346,7 +346,7 @@ p i {
 
 
 /*Partie media queries*/
-@media only screen and (max-width: 800px) and (max-device-width: 800px) {
+@media screen and (max-width: 800px) {
 
     body, .Activite, .Populaire, .Activite, section, footer, header, top, .heb, .Hebergement, .Uneligne, .ligne {
         width: 100%;
