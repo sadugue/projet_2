@@ -22,13 +22,13 @@ section, footer, .Act, .heb, .ligne, .heb, .col, .ligne, .Activite {
     height: 300px;
 }
 
-    .bhaute img, .bpetite img, .b1 img {
-        width: 100%;
-    }
+.bhaute img, .bpetite img, .b1 img {
+    width: 100%;
+}
 
-    .bhaute img, .bpetite img {
-        height: 85%;
-    }
+.bhaute img, .bpetite img {
+    height: 85%;
+}
 
 .b1 img {
     height: 55%;
