@@ -346,7 +346,7 @@ p i {
 
 
 /*Partie media queries*/
-@media screen and (max-width: 860px) {
+@media only screen and (max-width: 800px) and (max-device-width: 800px) {
 
     body, .Activite, .Populaire, .Activite, section, footer, header, top, .heb, .Hebergement, .Uneligne, .ligne {
         width: 100%;
@@ -372,17 +372,16 @@ p i {
         height: 300px;
     }
 
-    .bhaute img, .bpetite img, .b1 img {
-        width: 100%;
-        
-    }
+        .bhaute img, .bpetite img, .b1 img {
+            width: 100%;
+        }
 
-    .bhaute img, .bpetite img{
-        height: 85%;
-    }
+        .bhaute img, .bpetite img {
+            height: 85%;
+        }
 
-    .b1 img{
-        height:55%;
+    .b1 img {
+        height: 55%;
     }
 
     .b1 {
@@ -390,16 +389,16 @@ p i {
         width: 95%;
     }
 
-    .b2{
+    .b2 {
         height: 300px;
         width: 95%;
     }
 
-    .b2 img {
-       height: 100%;
-    }
+        .b2 img {
+            height: 100%;
+        }
 
-    p{
+    p {
         font-size: 1.5em;
     }
 
