@@ -1,18 +1,16 @@
-﻿body {
+﻿/*Gestion body/header/section/footer*/
+
+body {
     padding: 0em;
     margin: 0em;
     width: 76em;
 }
 
-h5{
-    font-size: 1.20em;
-    margin-top: 0.5em;
-}
-/*écrire un commentaire*/
 section, header {
     padding: 0em 1em 1em 1em;
     width: 76em;
 }
+
 
 footer {
     background-color: #e9ebec;
@@ -21,58 +19,53 @@ footer {
     padding: 0em;
 }
 
-.Hebergement, .Populaire {
-    background-color: #e9ebec;
-    border-radius: 16px;
-    padding: 0em;
-    margin: 0em 1em 1em 0em;
-}
-
-    .Hebergement h3, .Hebergement h4, .Populaire h3 {
-        margin-left: 1em;
-    }
-
-
-
-
-.Uneligne, footer, .Activite, .bpetite {
+/*Interrieur du header*/
+.top, .ligne {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.7em;
 }
 
-.ligne-filtre {
+.top-right {
+    width: 18em;
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 1em 1em 1em;
+}
+/*->Recherches*/
+.button {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin: 2em 2em 2em 0em;
+    border-radius: 16px;
+    height: auto;
+    width: 22em;
+}
+
+button {
+    padding: 0em;
+    margin: 0em;
+    color: white;
+    background-color: #0065fc;
+    border-style: none;
     height: 3em;
+    width: 8em;
+    border-radius: 0px 16px 16px 0px;
 }
 
-.etoile {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 0.5em;
+input {
+    padding: 0em;
+    margin: 0em;
+    border-style: none;
+    height: 100%;
+    width: 14em;
+    font-weight: bold;
+    color: black;
 }
-
-.texte-gris {
-    color: #808080;
-}
-
-.etoile-prise {
-    color: #0065fc;
-}
-
-.etoile-non-prise {
-    margin-left: 0.3em;
-    color: #e9ebec;
-}
-
-.Populaire .etoile{
-    margin-top: 2em;
-}
-
+/*->logo*/
+/*->liens internes*/
+/*->filtres*/
 .filtre-case {
     display: flex;
     flex-direction: row;
@@ -85,9 +78,9 @@ footer {
 }
 
 .filtre-case p {
-   padding: 0em 0.5em 0.5em 0.5em;
-   font-weight: bold;
-   text-align: center;
+    padding: 0em 0.5em 0.5em 0.5em;
+    font-weight: bold;
+    text-align: center;
 }
 
 .dessin {
@@ -95,8 +88,205 @@ footer {
     background-color: #aaccfe;
 }
 
+.ligne-filtre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 3em;
+}
+/*->texte*/
+
+
+
+
+
+
+/*Interrieur du section*/
+/*->Gestion des 3 grandes boites*/
+.Hebergement, .Populaire {
+    background-color: #e9ebec;
+    border-radius: 16px;
+    padding: 0em;
+    margin: 0em 1em 1em 0em;
+}
+
+.Hebergement h3, .Hebergement h4, .Populaire h3 {
+    margin-left: 1em;
+}
+.localisation {
+    background-color: #e9ebec;
+    padding: 0em;
+    margin: 0em;
+    height: 1.5em;
+    border-radius: 16px 0px 0px 16px;
+    font-size: 125%;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    width: 5em;
+}
+
+.Hebergement {
+    width: 70em;
+}
+
+.Act {
+    height: 35em;
+    padding: 0em;
+    margin: 1em;
+}
+/*->Gestion des étoiles*/
+.etoile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0.5em;
+}
+
+.ensemble-texte-etoile {
+    height: 2em;
+    padding-left: 1em;
+}
+
+.ensemble-texte-etoile p, .ensemble-texte-etoile etoile, .ensemble-texte-etoile h5 {
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+.etoile-prise {
+    color: #0065fc;
+}
+
+.etoile-non-prise {
+    margin-left: 0.3em;
+    color: #e9ebec;
+}
+
+/*->Gestion des boites à images*/
+.b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.b5 {
+    margin-right: 2em;
+}
+
+.b1, .b2, .bpetite, .bhaute {
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, .2);
+}
+
+.b1 {
+    background-color: white;
+    padding: 0.2em 0.2em 1em 0.2em;
+    height: 18em;
+    width: 14.6em;
+    margin: 0.7em;
+}
+
+.b1 h5, .b1 p {
+    margin-left: 10px;
+}
+
+.b2 {
+    background-color: white;
+    margin: 1em;
+    padding: 0em;
+    height: 11.5em;
+    width: 23.6em;
+}
+
+.bpetite, .bhaute {
+    background-color: white;
+    margin: 1em;
+    padding: 0px 0px 10px 0px;
+    border-radius: 16px;
+}
+
+.bhaute {
+    height: 23em;
+}
+
+.bpetite h5, .haute h5 {
+    padding-bottom: 0.1em
+}
+
+.bpetite h5, .bhaute h5 {
+    margin-left: 10px;
+}
+
+.bpetite, .bhaute {
+    width: 16.5em;
+    margin-left: 0.5em;
+}
+
+.bpetite {
+    height: 10.25em;
+}
+/*->Gestion des images*/
+.b1 img {
+    height: 10em;
+    width: 14.6em;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.b2 img {
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+    height: 11em;
+    width: 10.4em;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.bpetite img, .bhaute img {
+    background-color: white;
+    width: 16.5em;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.bhaute img {
+    height: 20em;
+}
+
+.bpetite img {
+    height: 8.5em;
+}
+/*->Gestion des textes*/
+
+
+
+
+
+
+
+
+
+
+/*Pas encore rangé*/
+h5{
+    font-size: 1.20em;
+    margin-top: 0.5em;
+}
+
+.Uneligne, footer, .Activite, .bpetite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7em;
+}
+
+.texte-gris {
+    color: #808080;
+}
+
+.Populaire .etoile{
+    margin-top: 2em;
+}
+
 a{
     text-decoration: none;
+    color: black;
 }
 
 a:hover{
@@ -110,61 +300,6 @@ a:hover{
    height: 1.5em;
    font-size: 125%;
    color: #0065fc;
-}
-
-.b2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-input {
-    padding: 0em;
-    margin: 0em;
-    border-style: none;
-    height: 100%;
-    width: 14em;
-    font-weight: bold;
-    color: black;
-}
-
-.b5{
-    margin-right: 2em;
-}
-
-.button {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 2em 2em 2em 0em;
-    border-radius: 16px;
-    height: auto;
-    width: 22em;
-    
-}
-
-button {
-    padding: 0em;
-    margin: 0em;
-    color: white;
-    background-color: #0065fc;
-    border-style: none;
-    height: 3em;
-    width: 8em;
-    border-radius: 0px 16px 16px 0px;
-    
-}
-
-.localisation {
-    background-color: #e9ebec;
-    padding: 0em;
-    margin: 0em;
-    height: 1.5em;
-    border-radius: 16px 0px 0px 16px;
-    font-size: 125%;
-    padding-left: 0.5em;
-    padding-top: 0.5em;
-    width: 5em;
 }
 
 label {
@@ -188,90 +323,8 @@ p i {
     border-color: #e9ebec;
 }
 
-
-.top, .ligne {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.top-right {
-    width: 18em;
-    display: flex;
-    justify-content: space-around;
-    padding: 0em 1em 1em 1em;
-}
-
-.Hebergement {
-    width: 70em;
-}
-
-.Act {
-    height: 35em;
-    padding: 0em;
-    margin: 1em;
-}
-
-.b1, .b2, .bpetite, .bhaute {
-    border-radius: 16px;
-    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, .2);
-}
-
-.b1 {
-    background-color: white;
-    padding: 0.2em 0.2em 1em 0.2em;
-    height: 18em;
-    width: 14.6em;
-    margin: 0.7em;
-}
-
-    .b1 h5, .b1 p {
-        margin-left: 10px;
-    }
-
-    .b1 img {
-        height: 10em;
-        width: 14.6em;
-        border-radius: 16px 16px 0px 0px;
-    }
-
-.b2 {
-    background-color: white;
-    margin: 1em;
-    padding: 0em;
-    height: 11.5em;
-    width: 23.6em;
-}
-
-    .b2 img {
-        margin-top: 0.2em;
-        margin-left: 0.2em;
-        height: 11em;
-        width: 10.4em;
-        border-radius: 16px 0px 0px 16px;
-    }
-
 .boite {
     margin-left: 2em;
-}
-
-.bpetite, .bhaute {
-    background-color: white;
-    margin: 1em;
-    padding: 0px 0px 10px 0px;
-    border-radius: 16px;
-}
-
-.bhaute{
-    height: 23em;
-}
-
-.bpetite h5, .haute h5{
-    padding-bottom: 0.1em
-}
-
-.bpetite h5, .bhaute h5 {
-    margin-left: 10px;
 }
 
 #premier {
@@ -291,29 +344,6 @@ p i {
     color: grey;
 }
 
-.bpetite, .bhaute{
-    width: 16.5em;
-    margin-left: 0.5em;
-}
-
-.bpetite img, .bhaute img {
-    background-color: white;
-    width: 16.5em;
-    border-radius: 16px 16px 0px 0px;
-}
-
-.bhaute img{
-    height: 20em;
-}
-
-.bpetite {
-    height: 10.25em;
-}
-
-.bpetite img {
-    height: 8.5em;
-}
-
 .textedessous {
     padding: 0px;
     margin: 0px;
@@ -329,15 +359,11 @@ p i {
     padding-top: 1em;
 }
 
-.ensemble-texte-etoile {
-    height: 2em;
-    padding-left: 1em;
-}
 
-.ensemble-texte-etoile p, .ensemble-texte-etoile etoile, .ensemble-texte-etoile h5 {
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-}
+
+
+
+
 
 
 
@@ -348,12 +374,33 @@ p i {
 /*Partie media queries*/
 @media screen and (max-width: 1200px) {
 
-    body, .Activite, .Populaire, .Activite, section, footer, header, top, .heb, .Hebergement, .Uneligne, .ligne {
+    header{
+        height: 400em;
+    }
+
+    .Activite, .Populaire, .Hebergement{
+        height: 1000em;
+    }
+
+    body, .Activite, .Populaire, .Activite, section, header, top, .heb, .Hebergement, .Uneligne, .ligne {
         width: 100%;
+        height: 100%;
         border-radius: 0px;
         margin-left: 0em;
         margin-right: 0em;
         padding: 0em;
+    }
+
+    footer {
+        width: 100%;
+        height: 100em;
+        position: absolute;
+        top: 500em;
+        border-radius: 0px;
+        margin-left: 0em;
+        margin-right: 0em;
+        padding: 0em;
+        justify-content: flex-start;
     }
 
     section, footer, .Act, .heb, .ligne, .heb, .col, .ligne, .Activite {
@@ -368,17 +415,17 @@ p i {
     }
 
     .bhaute, .bpetite {
-        width: 95%;
+        width: 100%;
         height: 300px;
     }
 
-        .bhaute img, .bpetite img, .b1 img {
-            width: 100%;
-        }
+    .bhaute img, .bpetite img, .b1 img {
+        width: 100%;
+    }
 
-        .bhaute img, .bpetite img {
-            height: 85%;
-        }
+    .bhaute img, .bpetite img {
+        height: 85%;
+    }
 
     .b1 img {
         height: 55%;
@@ -394,15 +441,31 @@ p i {
         width: 95%;
     }
 
-        .b2 img {
-            height: 100%;
-        }
+    .b2 img {
+        height: 100%;
+    }
 
-    p {
-        font-size: 1.5em;
+    p, .etoile{
+        font-size: 2.5em;
     }
 
     h5 {
-        font-size: 1.75em;
+        font-size: 2.75em;
+    }
+
+    h4 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 3.25em;
+    }
+
+    h2 {
+        font-size: 3.5em;
+    }
+
+    h1 {
+        font-size: 3.75em;
     }
 }
